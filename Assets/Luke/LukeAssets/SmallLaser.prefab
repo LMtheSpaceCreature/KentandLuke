@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7423012146570112368}
   - component: {fileID: 8609923037198483340}
   - component: {fileID: 5931026709142773132}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SmallLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyWhenActivated: 0
+  destroyWhenActivated: 1
   healthChange: -1
 --- !u!114 &8609923037198483340
 MonoBehaviour:
