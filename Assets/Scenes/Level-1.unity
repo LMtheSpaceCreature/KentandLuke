@@ -1469,6 +1469,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 27482703296532951, guid: 7c41197baab8949ca8cd6e6f89cd3981,
+        type: 3}
+      propertyPath: lookAxis
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27482703296532951, guid: 7c41197baab8949ca8cd6e6f89cd3981,
+        type: 3}
+      propertyPath: movementType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 27482703296532951, guid: 7c41197baab8949ca8cd6e6f89cd3981,
+        type: 3}
+      propertyPath: orientToDirection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 529125516001751389, guid: 7c41197baab8949ca8cd6e6f89cd3981,
         type: 3}
       propertyPath: m_Sprite
@@ -1948,12 +1963,12 @@ PrefabInstance:
     - target: {fileID: 5026461566741786447, guid: 5eb7b1cec6702444abae985ae59cafd3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.37
+      value: 20.05
       objectReference: {fileID: 0}
     - target: {fileID: 5026461566741786447, guid: 5eb7b1cec6702444abae985ae59cafd3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17
+      value: 13.76
       objectReference: {fileID: 0}
     - target: {fileID: 5026461566741786447, guid: 5eb7b1cec6702444abae985ae59cafd3,
         type: 3}
