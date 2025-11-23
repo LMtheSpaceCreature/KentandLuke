@@ -20,6 +20,8 @@ public class HorizontalFacingAndShooting : MonoBehaviour
         if (spriteRenderer == null) return;
         
         // Only use WASD keys explicitly (not arrow keys)
+        // Confused about why these need to be done differently when the component already has WASD.
+        // Try to understand this more.
         if (Input.GetKey(KeyCode.D)) // D key - face right/forward
         {
             spriteRenderer.flipX = false; // Face right horizontally
