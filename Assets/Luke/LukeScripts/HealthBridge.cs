@@ -3,29 +3,41 @@ using UnityEngine;
 public class HealthBridge : MonoBehaviour
 {
     private SimpleHealthBar healthBar;
-    private int lastHealth;
     
     void Start()
     {
         healthBar = GetComponent<SimpleHealthBar>();
-        lastHealth = 10; // Match your max health
     }
     
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if we hit something with Modify Health
-        var modifyHealth = collision.gameObject.GetComponent("ModifyHealthAttribute");
+        HandleHealthChange(collision.gameObject);
+    }
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        HandleHealthChange(other.gameObject);
+    }
+    
+    void HandleHealthChange(GameObject obj)
+    {
+        var modifyHealth = obj.GetComponent("ModifyHealthAttribute");
         if (modifyHealth != null && healthBar != null)
         {
-            // Get the damage amount
             var healthChangeField = modifyHealth.GetType().GetField("healthChange");
             if (healthChangeField != null)
             {
-                int damage = (int)healthChangeField.GetValue(modifyHealth);
-                if (damage < 0) // negative = damage
+                int healthChange = (int)healthChangeField.GetValue(modifyHealth);
+                
+                if (healthChange < 0)
                 {
-                    healthBar.OnDamage(-damage); // Convert to positive
-                    Debug.Log("Took " + (-damage) + " damage from collision");
+                    healthBar.OnDamage(-healthChange);
+                    Debug.Log("Took " + (-healthChange) + " damage");
+                }
+                else if (healthChange > 0)
+                {
+                    healthBar.OnHeal(healthChange);
+                    Debug.Log("Healed " + healthChange);
                 }
             }
         }

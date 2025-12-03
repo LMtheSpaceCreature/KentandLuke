@@ -4,11 +4,11 @@ using UnityEngine.UI;
 public class SimpleHealthBar : MonoBehaviour
 {
     public RectTransform healthBarFill;
-    public Image healthBarImage; // Add this new field
     public int maxHealth = 10;
     private int currentHealth;
     
     private Vector2 originalSize;
+    private Image healthBarImage;
     
     void Start()
     {
@@ -18,13 +18,12 @@ public class SimpleHealthBar : MonoBehaviour
         {
             originalSize = healthBarFill.sizeDelta;
             healthBarImage = healthBarFill.GetComponent<Image>();
-            Debug.Log("Health bar initialized. Max health: " + maxHealth);
+            Debug.Log("Health bar initialized. Original size: " + originalSize + ", Max health: " + maxHealth);
         }
         
         UpdateHealthBar();
     }
     
-    // This gets called when player takes damage
     public void OnDamage(int damage)
     {
         currentHealth -= damage;
@@ -39,16 +38,23 @@ public class SimpleHealthBar : MonoBehaviour
         }
     }
     
+    public void OnHeal(int healAmount)
+    {
+        currentHealth += healAmount;
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+        
+        Debug.Log("Healed " + healAmount + "! Health: " + currentHealth + "/" + maxHealth);
+        UpdateHealthBar();
+    }
+    
     void UpdateHealthBar()
     {
         if (healthBarFill != null && originalSize.x > 0)
         {
-            // Update size
             float healthPercent = (float)currentHealth / maxHealth;
             Vector2 newSize = new Vector2(originalSize.x * healthPercent, originalSize.y);
             healthBarFill.sizeDelta = newSize;
             
-            // Update color based on health
             if (healthBarImage != null)
             {
                 if (currentHealth > 6)
