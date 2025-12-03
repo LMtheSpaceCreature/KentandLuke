@@ -1293,9 +1293,9 @@ RectTransform:
   - {fileID: 539748395}
   m_Father: {fileID: 1065617467}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -110, y: -30}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 110, y: -30}
   m_SizeDelta: {x: 200, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1525538372
@@ -1474,6 +1474,7 @@ GameObject:
   - component: {fileID: 1877180036}
   - component: {fileID: 1877180035}
   - component: {fileID: 1877180034}
+  - component: {fileID: 1877180038}
   m_Layer: 0
   m_Name: HealthBonus
   m_TagString: Untagged
@@ -1529,8 +1530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyWhenActivated: 1
-  healthChange: 5
+  destroyWhenActivated: 0
+  healthChange: 2
 --- !u!212 &1877180036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1602,6 +1603,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1877180038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877180033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18fb9de73b9cf42258e4b21eaa03d566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTime: 10
 --- !u!1001 &1891471586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,7 +1838,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBarFill: {fileID: 539748395}
-  healthBarImage: {fileID: 0}
   maxHealth: 10
 --- !u!114 &1971100082
 MonoBehaviour:
