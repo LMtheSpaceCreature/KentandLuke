@@ -19,10 +19,15 @@ public class RandomRespawn : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") || other.GetComponent("HealthSystemAttribute") != null)
+        // Only trigger for Player, not enemies
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Player picked up health bonus!");
             StartCoroutine(RespawnRoutine());
+        }
+        else
+        {
+            Debug.Log("Non-player touched health bonus, ignoring: " + other.gameObject.name);
         }
     }
     
