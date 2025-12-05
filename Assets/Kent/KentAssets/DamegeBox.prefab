@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7272443590418861528}
   - component: {fileID: 1820350586562198627}
-  - component: {fileID: 4440189589050648513}
   - component: {fileID: 8537378694206071736}
+  - component: {fileID: 5357267839252035704}
   m_Layer: 0
   m_Name: DamegeBox
   m_TagString: Untagged
@@ -89,20 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4440189589050648513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964324283379558959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyWhenActivated: 0
-  healthChange: -5
 --- !u!61 &8537378694206071736
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -137,7 +123,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.034376144, y: -0.7295904}
   m_SpriteTilingProperty:
     border: {x: 9.659999, y: 9.98, z: 9.809999, w: 10.16}
     pivot: {x: 0.5, y: 0.5}
@@ -147,5 +133,38 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 23.618645, y: 24.288557}
   m_EdgeRadius: 0
+--- !u!114 &5357267839252035704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964324283379558959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions: []
+  useCustomActions: 1
+  customActions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3507509879067307766, guid: 7c41197baab8949ca8cd6e6f89cd3981,
+          type: 3}
+        m_TargetAssemblyTypeName: HealthSystemAttribute, Assembly-CSharp
+        m_MethodName: ModifyHealth
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  happenOnlyOnce: 0
+  filterByTag: 1
+  filterTag: Player

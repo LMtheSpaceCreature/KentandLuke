@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 8027888021332630792}
   - component: {fileID: 7160686052322473489}
   - component: {fileID: 54263280798870562}
-  - component: {fileID: 338386332002842735}
   m_Layer: 7
   m_Name: MinorEnemy
   m_TagString: Enemy
@@ -129,7 +128,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.011287332, y: 0.9042964}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -139,7 +138,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5, y: 5}
+  m_Size: {x: 5.3386106, y: 7.4337864}
   m_EdgeRadius: 0
 --- !u!114 &416705739404038945
 MonoBehaviour:
@@ -167,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyWhenActivated: 0
-  healthChange: -5
+  healthChange: -2
 --- !u!50 &8027888021332630792
 Rigidbody2D:
   serializedVersion: 5
@@ -209,7 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   target: {fileID: 0}
-  speed: 0.3
+  speed: 0.5
   lookAtTarget: 1
   useSide: 0
 --- !u!114 &54263280798870562
@@ -224,8 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 338386332002842735}
+  actions: []
   useCustomActions: 0
   customActions:
     m_PersistentCalls:
@@ -233,17 +231,3 @@ MonoBehaviour:
   happenOnlyOnce: 0
   filterByTag: 1
   filterTag: Player
---- !u!114 &338386332002842735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4796198153736266852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be840ffee03ed4abe9b3dc9b48f9cae7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: 0
-  deathEffect: {fileID: 0}
