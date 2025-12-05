@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1820350586562198627}
   - component: {fileID: 8537378694206071736}
   - component: {fileID: 5357267839252035704}
+  - component: {fileID: 8357240389849871496}
   m_Layer: 0
   m_Name: DamegeBox
   m_TagString: Untagged
@@ -105,7 +106,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -151,20 +152,21 @@ MonoBehaviour:
   useCustomActions: 1
   customActions:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3507509879067307766, guid: 7c41197baab8949ca8cd6e6f89cd3981,
-          type: 3}
-        m_TargetAssemblyTypeName: HealthSystemAttribute, Assembly-CSharp
-        m_MethodName: ModifyHealth
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   happenOnlyOnce: 0
   filterByTag: 1
   filterTag: Player
+--- !u!114 &8357240389849871496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964324283379558959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa3c260db47248a18ecb8112019040d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenActivated: 0
+  healthChange: -2

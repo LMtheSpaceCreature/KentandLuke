@@ -95,22 +95,9 @@ MonoBehaviour:
   useCustomActions: 1
   customActions:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7160686052322473489, guid: 5eb7b1cec6702444abae985ae59cafd3,
-          type: 3}
-        m_TargetAssemblyTypeName: FollowTarget, Assembly-CSharp
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  happenOnlyOnce: 0
+      m_Calls: []
+  happenOnlyOnce: 1
   filterByTag: 1
-  filterTag: Enemy
+  filterTag: Player
   frequency: 1
   eventType: 0

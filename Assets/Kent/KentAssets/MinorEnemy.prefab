@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 92988338316463650}
   - component: {fileID: 8027888021332630792}
   - component: {fileID: 7160686052322473489}
-  - component: {fileID: 54263280798870562}
   m_Layer: 7
   m_Name: MinorEnemy
   m_TagString: Enemy
@@ -152,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb970c45b40bb4652a8310660a03dfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 3
 --- !u!114 &92988338316463650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,28 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  target: {fileID: 0}
+  target: {fileID: 8127834888442147981, guid: 7c41197baab8949ca8cd6e6f89cd3981, type: 3}
   speed: 0.5
   lookAtTarget: 1
   useSide: 0
---- !u!114 &54263280798870562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4796198153736266852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 0}
-  useCustomActions: 0
-  customActions:
-    m_PersistentCalls:
-      m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 1
-  filterTag: Player

@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3523377196014330766}
   - component: {fileID: 5648122418343528025}
   - component: {fileID: 384894184850936079}
-  - component: {fileID: 1427949599057375029}
   - component: {fileID: 9135906683725335366}
   m_Layer: 7
   m_Name: MinorEnemy Wander
@@ -194,26 +193,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1427949599057375029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6867927150322999539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdab9334f9a2a4efe8c019b5d37595cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions: []
-  useCustomActions: 0
-  customActions:
-    m_PersistentCalls:
-      m_Calls: []
-  happenOnlyOnce: 0
-  filterByTag: 1
-  filterTag: Player
 --- !u!114 &9135906683725335366
 MonoBehaviour:
   m_ObjectHideFlags: 0
