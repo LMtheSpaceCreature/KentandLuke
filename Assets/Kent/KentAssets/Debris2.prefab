@@ -142,7 +142,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4626496886663054510}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0027ecc622a19415e89fe29ca9261170, type: 3}
   m_Name: 
@@ -226,7 +226,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5773587}
-      - {x: -0.5, y: -0.28866667}
-      - {x: 0.5, y: -0.28866667}
+    - - {x: 0.002107746, y: 0.5861107}
+      - {x: -0.5000003, y: -0.28866673}
+      - {x: -0.50210774, y: -0.291584}
+      - {x: 0.49789214, y: -0.29158399}
+      - {x: 0.50632286, y: -0.28866667}
   m_UseDelaunayMesh: 0
