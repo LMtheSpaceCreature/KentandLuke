@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6287668498832436876}
   - component: {fileID: 9047475499672520519}
   - component: {fileID: 5569259875387874610}
+  - component: {fileID: -2026201829370496220}
   m_Layer: 0
   m_Name: HealthBonus 1
   m_TagString: Untagged
@@ -154,3 +155,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnTime: 10
+--- !u!114 &-2026201829370496220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139986186926287569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142f1170d8e5341c9be050e753b88299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupSound: {fileID: 8300000, guid: 637c26062aaab4c42867355422c22f62, type: 3}
