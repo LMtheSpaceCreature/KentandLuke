@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  target: {fileID: 8127834888442147981, guid: 7c41197baab8949ca8cd6e6f89cd3981, type: 3}
+  target: {fileID: 0}
   speed: 0.5
   lookAtTarget: 1
   useSide: 0

@@ -26,13 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level-1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kent/KentTestScenes/Start Screne Test.unity
     guid: 74c373eda4af44bb3bfb5fcaabd9ca80
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kent/KentTestScenes/KentIsTesting.unity
     guid: 09816bc386dff4faf8f02dc8db1ccc2a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Kent/KentTestScenes/VideoScene.unity
     guid: 3c8159b0e9e5543cd850471218f15d4f
   m_configObjects: {}
