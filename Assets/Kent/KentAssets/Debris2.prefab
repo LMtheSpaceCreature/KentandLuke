@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 5586769295583371848}
   - component: {fileID: 4765232983293617607}
   - component: {fileID: 2683117729125905302}
-  m_Layer: 0
+  - component: {fileID: 1923564050351419384}
+  m_Layer: 7
   m_Name: Debris2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -33,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.63, y: 2.32, z: 0}
-  m_LocalScale: {x: 2.5794857, y: 1.86355, z: 1}
+  m_LocalScale: {x: 1.9782794, y: 1.7971103, z: 0.59748805}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,9 +83,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224,
+  m_Sprite: {fileID: 8528991357060227646, guid: e1e0565bef4e34311ace8cc1c4c0ef5a,
     type: 3}
-  m_Color: {r: 1, g: 0.8651887, b: 0.07075471, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,7 +103,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4626496886663054510}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -148,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 2
+  speed: 3
   directionChangeInterval: 3
   keepNearStartingPoint: 0
   orientToDirection: 1
@@ -179,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyWhenActivated: 0
-  healthChange: -2
+  healthChange: -1
 --- !u!60 &2683117729125905302
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -217,8 +218,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.255, y: 0.9025}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -226,9 +227,23 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.002107746, y: 0.5861107}
-      - {x: -0.5000003, y: -0.28866673}
-      - {x: -0.50210774, y: -0.291584}
-      - {x: 0.49789214, y: -0.29158399}
-      - {x: 0.50632286, y: -0.28866667}
+    - - {x: 0.002107746, y: 0.4251946}
+      - {x: -0.5313245, y: -0.20246162}
+      - {x: -0.5751976, y: -0.30307803}
+      - {x: 0.49789214, y: -0.30307806}
+      - {x: 0.55330914, y: -0.23119658}
   m_UseDelaunayMesh: 0
+--- !u!114 &1923564050351419384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4626496886663054510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be840ffee03ed4abe9b3dc9b48f9cae7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 0
+  deathEffect: {fileID: 0}
