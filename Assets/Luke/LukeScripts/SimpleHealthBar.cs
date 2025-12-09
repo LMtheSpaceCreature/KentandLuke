@@ -35,6 +35,13 @@ public class SimpleHealthBar : MonoBehaviour
         if (currentHealth <= 0)
         {
             Debug.Log("Player died!");
+            
+            // Find and call GameOverManager
+            GameOverManager gameOverManager = FindObjectOfType<GameOverManager>();
+            if (gameOverManager != null)
+            {
+                gameOverManager.ShowGameOver();
+            }
         }
     }
     
