@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7246206888992070245}
   - component: {fileID: 2845201174488787674}
   - component: {fileID: 6804140120409890745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BarrierAsset
-  m_TagString: Barrier
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
