@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9efef37d8b7dc4b62a6338464e4d8b11
+guid: 5cfc09bb8fb834001850ad4cc26e216f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Quantico
+  - Press Start 2P
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
