@@ -1598,17 +1598,17 @@ PrefabInstance:
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: -2.8987458
+      value: -2.8833826
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 164.78322
+      value: 179.23471
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.5953
+      value: 78.8245
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
@@ -5855,22 +5855,22 @@ PrefabInstance:
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: -1.2749269
+      value: -3.9591582
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 160.12056
+      value: 177.01328
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.1918
+      value: 77.6411
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3524
+      value: 6.6945
       objectReference: {fileID: 0}
     - target: {fileID: 346547714294830343, guid: 666631b0659d34bcabc56729d4a4a729,
         type: 3}
@@ -6766,15 +6766,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpaceBackground
       objectReference: {fileID: 0}
+    - target: {fileID: 5665809426617774138, guid: c3c1155e2defb4281ac16b15b51264fd,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 182.31505
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665809426617774138, guid: c3c1155e2defb4281ac16b15b51264fd,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 22.548145
+      objectReference: {fileID: 0}
     - target: {fileID: 7610920952997461524, guid: c3c1155e2defb4281ac16b15b51264fd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.15
+      value: 74.314
       objectReference: {fileID: 0}
     - target: {fileID: 7610920952997461524, guid: c3c1155e2defb4281ac16b15b51264fd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: -0.1135
       objectReference: {fileID: 0}
     - target: {fileID: 7610920952997461524, guid: c3c1155e2defb4281ac16b15b51264fd,
         type: 3}
@@ -6915,22 +6925,27 @@ PrefabInstance:
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 12.302918
+      value: 7.261221
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 12.882273
+      value: 7.6031575
+      objectReference: {fileID: 0}
+    - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.3781857
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 140.36
+      value: 153.34
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4
+      value: -0.72
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
