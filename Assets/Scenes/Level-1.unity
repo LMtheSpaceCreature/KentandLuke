@@ -7600,6 +7600,11 @@ PrefabInstance:
       propertyPath: health
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 56662230357387475, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7618,7 +7623,7 @@ PrefabInstance:
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 156.62
+      value: 152.98
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
@@ -7677,6 +7682,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5711471996628344461, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4046628523921949604, guid: 933a13801a4ff43a989273aa5e260dea,
+        type: 3}
+    - target: {fileID: 5711471996628344461, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711471996628344461, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711471996628344461, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711471996628344461, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
@@ -7684,6 +7710,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142939658967802822, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142939658967802822, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7490123302221647729, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
@@ -7698,7 +7734,7 @@ PrefabInstance:
     - target: {fileID: 8115404785037840994, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8115404785037840994, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6516883882774326081}
   - component: {fileID: 1983110912905012775}
   - component: {fileID: 1727431436026939124}
+  - component: {fileID: -239476651779262730}
   m_Layer: 0
   m_Name: testBullet
   m_TagString: Untagged
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3625043607559282579, guid: 045b15ec09bba42448d89db77fa6f20a,
+  m_Sprite: {fileID: 8398703744650762507, guid: 7e8199869666444ef9c4faf69721eb74,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -184,3 +185,16 @@ MonoBehaviour:
   rigidbody2D: {fileID: 0}
   direction: {x: -90, y: 0}
   relativeToRotation: 1
+--- !u!114 &-239476651779262730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820686699315380649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8862ea7b10c84421c9485c36f04335a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestruction: 1
