@@ -7603,7 +7603,7 @@ PrefabInstance:
     - target: {fileID: 56662230357387475, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: speed
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
@@ -7623,7 +7623,7 @@ PrefabInstance:
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 152.98
+      value: 151.63
       objectReference: {fileID: 0}
     - target: {fileID: 3657765841715105520, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
@@ -7714,11 +7714,21 @@ PrefabInstance:
     - target: {fileID: 6142939658967802822, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_Mass
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6142939658967802822, guid: 7b590df4fcbfaea46978285986397af9,
         type: 3}
       propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142939658967802822, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142939658967802822, guid: 7b590df4fcbfaea46978285986397af9,
+        type: 3}
+      propertyPath: m_LinearDamping
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7490123302221647729, guid: 7b590df4fcbfaea46978285986397af9,
